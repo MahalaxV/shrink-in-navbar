@@ -1,0 +1,33 @@
+header {
+  position: sticky;
+  top: 0;
+}
+
+.header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: green;
+  transition: padding 0.6s ease-in-out;
+}
+
+.header-bottom {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+  transition: height 0.6s ease-in-out;
+  height: 100px;
+}
+
+.shrink .header-top {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.shrink .logo img {
+  height: 50px;
+}
