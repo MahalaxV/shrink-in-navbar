@@ -19,5 +19,5 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 });
 
-app.listen(3003);
+app.listen(process.env.PORT || 3003);
 console.log('3003 is the magic port');
